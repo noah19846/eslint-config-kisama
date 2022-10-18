@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-kisama",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "personal eslint-config-prettier",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint *.{js,cjs} --fix"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "prettier": "^2.7.1",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "eslint": "^8.25.0",
+    "prettier": "^2.7.1",
+    "typescript": "*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./index.js"
+    ]
+  }
+}
