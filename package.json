@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-kisama",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "description": "personal eslint-config-prettier",
   "main": "index.js",

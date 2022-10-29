@@ -30,6 +30,8 @@ module.exports = {
   ],
 
   rules: {
-    'prettier/prettier': ['error', prettierRule]
+    'prettier/prettier': ['warn', prettierRule],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error']
   }
 }
